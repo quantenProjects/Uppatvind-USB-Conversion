@@ -1,3 +1,5 @@
+*English version below*
+
 # Umbau vom IKEA Uppatvind auf USB-C
 
 Der neue und kleine Luftfilter von IKEA für 35€ mit 95m³/h CADR. 
@@ -110,7 +112,7 @@ Die Spitzenströme sind von einer analogen Anzeige eines Labornetzteils abgelese
 
 Man kann den Luftfilter also auch an einem leistungsfähigen 5V Netzteil/Powerbank (min. 2A) betreiben, man muss aber die Stufen nacheinander einschalten.
 Somit kann auf das Trigger-Board ggf. auch verzichtet werden.
-Das verwendete Trigger-Board gibt jedoch auch fröhlich 5V aus, wenn es die eingestellte Spannung aushandeln kann, stört somit auch nicht.
+Das verwendete Trigger-Board gibt jedoch auch fröhlich 5V aus, wenn es die eingestellte Spannung nicht aushandeln kann, stört somit auch nicht.
 
 Als Kompromiss scheint 9V als Ausgangsspannung vom USB-C PD Trigger-Board geeignet.
 Die Spannung ist ausreichend hoch, sodass die Ströme nicht zu groß werden.
@@ -124,3 +126,130 @@ Andere Spannungen könnten jedoch auch eine gute Wahl darstellen.
 # Bild
 
 ![A image from the inside of the Uppatvind. You see the DC BoostUp-Coverter and the Trigger-Board](./img_1.jpg)
+
+
+# Conversion from IKEA Uppatvind to USB-C
+
+*English translation partly by DeepL.*
+
+The new and small air filter from IKEA for 35€ with 95m³/h CADR. 
+
+Inexpensive and functional, but unfortunately with a power supply for 230V. But can be converted to USB-C for ~ 10 € and thus used with a power bank.
+
+If you can hold a soldering iron so that it doesn't smell of chicken and can use a multimeter, you should be able to manage the conversion.
+
+Conversion and operation at your own risk. After the conversion, although everything is low voltage, USB-C PD power supplies can still deliver considerable power, so that you can also generate magic smoke, smouldering or fire in the event of errors.
+
+# Instructions
+
+## Materials 
+
+* DC-BoostUp-Converter from 5V to 24V with min. 2A (better 3A, preferably slightly oversized) output current
+* USB-C PD trigger board (for e.g. 9V, maybe optional, see below for further voltage considerations)
+* a bit of cable for between trigger board and BoostUp converter
+* double-sided adhesive tape
+* hot glue
+
+BoostUp converter used (no affiliate or something like that and there are better stores than Amazon): https://www.amazon.de/LAOMAO-Converter-Einstellbare-Ausgangsspannung-Netzteiladapter/dp/B0C2H6PFVH
+
+## Tool
+
+* Screwdriver
+* Multimeter
+* Side cutter (and wire stripper if necessary)
+* Hot glue gun
+
+## Steps
+
+### Unscrew
+
+Pull the power adapter out of the socket ;)
+
+Remove the pre-filter and filter.
+
+Unscrew the triangular screws with a suitable screwdriver.
+A slotted screwdriver with ~ 4 mm width also works, T8 could also work.
+
+Then you can lift out the inner part.
+Be careful with the cable to the motor.
+This is attached to the circuit board at the top under the button with a locked plug.
+Pull it off so that you can work in a relaxed manner.
+
+### Remove the original cable
+
+Unscrew the strain relief at the bottom of the original cable. 
+
+Cut the black and white cable close to the outer insulation and strip the insulation on the side towards the circuit board.
+
+Pull out the outer part of the cable and put it away.
+Not needed anymore, just like the power adapter.
+
+### Setting the USB-C trigger board and BoostUp
+
+With some USB-C PD trigger boards, you can set the output voltage, e.g. via solder pads.
+Set this to 9V output voltage, see below for voltage considerations.
+
+Connect the USB-C PD power supply, check whether 9V is coming out, disconnect the power supply again.
+
+Connect the USB-C trigger board to the input of the BoostUp converter with a 5-10 cm cable. Observe polarity.
+
+Plug the USB-C power adapter back in, measure the output of the BoostUp converter with a multimeter and set the output voltage to 24V with the potentiometer. Pull out the power supply again.
+
+### Wiring
+
+Connect the cable from the circuit board to the BoostUp converter output. The white wire is positive and black is negative.
+
+### Test run
+
+Reconnect the motor cable and place everything so that the motor can rotate freely. Then plug in the power supply unit, switch the air filter on and try it out.
+
+### Attach
+
+The USB-C trigger boards usually fit into the hole at the bottom where the cable previously came out. 
+
+With double-sided adhesive tape, plywood, double-sided adhesive tape sandwich you can attach the trigger board there quite well and then secure it with enough hot glue.
+
+Glue the BoostUp converter to the hump above the hole using double-sided adhesive tape. Make sure that it does not protrude over the hump to the front, as the second housing part rests there. 
+
+Stow the cable well.
+
+### Assembly
+
+Re-insert the housing section with the motor. 
+
+The cables can get caught somewhere in between. So make sure that everything is in the right place and that the housing parts are flat and fit together properly. 
+
+Screw the screws back in, reinsert the filter and you're done :)
+
+## Voltage considerations
+
+The BoostUp converter used keeps the 24V output voltage stable at input voltages between 5V and 20V.
+
+According to the instructions, the Uppatvind draws a maximum of 19 watts of power (24V, 0.8A). 
+
+Power consumption measured at 5V input voltage at the BoostUp converter input:
+
+* Switching on from 0 to level 1, peak: 1A, 5W
+* Level 1: 0.45A, 2.25W
+* Level 2: 0.8A, 4W
+* 2 to 3 peak: 1.65A, 8.25W
+* Level 3: 1.45A, 7.25W
+* Switching on from 0 directly to level 3
+    * At 5V, it was clearly more than 2A for a short time, the laboratory power supply cut out, the voltage collapsed and Uppatvind stopped switching on.
+    * At 9V it was 1A according to the analog display, so probably 10 watts or so.
+
+The peak currents are read from an analog display of a laboratory power supply unit; even higher power may be required for a short time (less than 1 sec).
+
+The air filter can also be operated with a powerful 5V power supply/power bank (min. 2A), but the fan levels must be switched on one after the other.
+This means that the trigger board may not be necessary.
+However, the trigger board used also happily outputs 5V if it can't negotiate the set voltage, so it does not interfere.
+
+As a compromise, 9V seems suitable as an output voltage from the USB-C PD trigger board.
+The voltage is sufficiently high so that the currents are not high.
+In addition, many (cell phone) power supplies support 9V PD.
+15V or 20V are usually only supported by laptop USB-C power supplies. 
+
+In addition, the trigger board used can also trigger Qualcomm Quick Charge and also draw 9V via these power supplies.
+
+However, other voltages could also be a good choice.
+
