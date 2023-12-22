@@ -120,3 +120,7 @@ Außerdem wird von vielen (Handy-)Netzteilen 9V PD unterstützt.
 Außerdem kann das verwendete Trigger-Board auch Qualcomm Quick Charge triggern und auch über diese Netzteile 9V beziehen.
 
 Andere Spannungen könnten jedoch auch eine gute Wahl darstellen.
+
+# Bild
+
+![A image from the inside of the Uppatvind. You see the DC BoostUp-Coverter and the Trigger-Board](./img_1.jpg)
