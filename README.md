@@ -123,6 +123,77 @@ Außerdem kann das verwendete Trigger-Board auch Qualcomm Quick Charge triggern 
 
 Andere Spannungen könnten jedoch auch eine gute Wahl darstellen.
 
+# Aber das ist ja nur ein EPA12 Filter, hilft der überhaupt gegen SARS-Cov-2?
+
+*tldr: Ja, hilft immernoch sehr gut.*
+
+Ja, der IKEA Uppatvind hat einen EPA12 Filter, das ist kein HEPA-Filter (High-Efficiency Particulate Air), ihm fehlt also das *H* was für *High* steht.
+Funktioniert er dadurch nicht gegen SARS-Cov-2?
+
+Es ist kompliziert. 
+Aber meine Meinung ist: Ja, er hilft gegen SARS-Cov-2.
+Je nach Umständen (siehe unten) nicht ganz so super gut, es ist aber ein sehr guter Kompromiss zwischen Preis, Luft-Durchsatz und Schutz.
+
+## Grundlagen
+
+Kurz die üblichen Grundlagen zu Partikelfiltern.
+
+Sie funktionieren über drei verschiedene Mechanismen für verschiedene Partikelgrößen.
+Partikelfilter haben es sehr einfach große Partikel und ganz kleine Partikel zu filtern.
+
+Die Partikel um 0.1-0.3µm Größe sind die, die am schwierigsten zu filtern sind und in dem sich die meisten Filter unterscheiden.
+
+Eine gute Erklärung zu den Mechanismen gibt es in [diesem Video von MinutePhysics](https://www.youtube.com/watch?v=eAdanPfQdCA).
+
+## Normen
+
+In Europa werden Luftfilter nach EN 1822-1:2009 klassifiziert.
+Dabei wird die Durchlässigkeit des Filters in genau der schwierigen Partikelgrößen 0.1-0.3µm (MPPS = most penetrating particle size) gemessen.
+
+* Ein EPA12 Filter ist die beste der drei EPA-Klassen und filtert mindestens 99.5% der Partikel aus der Luft.
+* Ein HEPA13 Filter filtert 99.95% der Partikel, ist also Faktor 10 besser. 
+* Ein HEPA14 filtert noch mal Faktor 10 besser. 
+
+Wichtig: Die Klassifizierung nach EN 1822-1 ist nicht mit der MERV Klassifizierung zu verwechseln.
+Da werden zwar Zahlen ähnlicher Größe genutzt (z.B. MERV 13 Filter).
+Diese Zahlen geben aber an, bis zu welch kleiner Partikelgröße gefiltert wird.
+(Je höher die Zahl, desto kleinere Partikel werden gefiltert und desto besser der Filter.)
+(H)EPA Filter hingegen filtern sowieso schon immer bis 0.3µm herunter, es ist nur die Frage wie gut.
+
+Laut [dieser Tabelle](https://www.emw.de/de/filter-campus/vergleich-von-filterklassen.html) sind die besten MERV16-Filter mit EPA11 zu vergleichen.
+
+## Partikelgrößen
+
+Ein SARS-Cov-2 Virus ist ungefähr 0.1µm groß, also in dem Bereich der schwierigen Partikelgrößen.
+Jedoch reisen die Viren selten alleine im Aerosol, sondern meist in größeren Tröpfchen.
+[»we showed that SARS-CoV-2 RNA is present with airborne particles ≤2.5 μm, 2.5–10 μm, and ≥10 μm.«](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8003456/)
+Also muss man sich um die Filtersrate für Partikel kleiner 0.3µm auch nicht all zu viele Gedanken machen.
+Und die großen Partikel werden eh gut gefiltert.
+
+## Einsatzzweck und Luftdurchsatz
+
+Außerdem kann man sich beim Einsatz eines Filters in einem umwälzenden Raumluftfilter schon fragen, ob man wirklich die 99.95% braucht, wenn die Luft sich eh dann mit der restlichen dreckigen Raumluft mischt.
+Und selbst FFP2 Masken, wo wir ja nur die gefilterte Luft ohne Mischung atmen, filtern nur 95%, also Faktor 10 schlechter als EPA12.
+
+Des Weiteren ermöglichen Filter, die weniger Abscheiden, meist mehr Luftdurchsatz und filtern damit die Raumluft schneller und besser.
+(fiktives Beispiel: Einmal die Raumluft mit einem HEPA13 mit 2000facher Reduktion ODER zweimal dank höherem Durchsatz die Raumluft mit EPA12 mit 200 * 200 = 20 000 facher Reduktion)
+
+Je mehr 9en in der Zahl stehen, desto besser kann man die teuren Filter bewerben.
+Für die Abluft biotechnischer Labore muss man schon HEPA-Filter nehmen.
+Und wer will nicht auch biotechnische Labor-Reinheit zuhause?
+Wirklich brauchen tuen wir es aber nicht.
+
+Die bekannte Corsi-Rosenthal-Box nutzt MERV13 Filter.
+Diese sind also schlechter als die MERV16/EPA11 Filter und noch mal schlechter als der EPA12 im Uppatvind.
+
+Um es etwas überspitzt zu formulieren: Lieber sitzt jeder mit einem eigenen Uppatvind auf dem Schoß beim Weihnachtsessen, als das man sich für das gleiche Geld einen einzigen HEPA Luftfilter kauft, der dann in der Ecke steht und da die Luft sehr sehr gut filtert.
+
+## Zusammenfassung
+
+Der EPA12 im Uppatvind ist nicht viel schlechter als ein HEPA Filter und immer noch besser als eine FFP2 Maske.
+
+Die gefilterte Luft mischt sich eh mit der Raumluft und mit mehr Durchsatz hat man ggf. auch sauberere Raumluft.
+
 # Bild
 
 ![A image from the inside of the Uppatvind. You see the DC BoostUp-Coverter and the Trigger-Board](./img_1.jpg)
@@ -253,3 +324,73 @@ In addition, the trigger board used can also trigger Qualcomm Quick Charge and a
 
 However, other voltages could also be a good choice.
 
+# But this is only an EPA12 filter, does it even help against SARS-Cov-2?
+
+*tldr: Yes, it still helps very well.*
+
+Yes, the IKEA Uppatvind has an EPA12 filter, which is not a HEPA filter (High-Efficiency Particulate Air), so it lacks the *H* which stands for *High*.
+Does this mean it doesn't work against SARS-Cov-2?
+
+It's complicated. 
+But my opinion is: Yes, it helps against SARS-Cov-2.
+Depending on the circumstances (see below) not quite as good, but it is a very good compromise between price, air throughput and protection.
+
+## Basics
+
+Briefly the usual basics about particle filters.
+
+They work via three different mechanisms for different particle sizes.
+Particle filters have it very easy to filter large particles and very small particles.
+
+Particles around 0.1-0.3µm in size are the most difficult to filter and this is where most filters differ.
+
+A good explanation of the mechanisms can be found in [this video from MinutePhysics](https://www.youtube.com/watch?v=eAdanPfQdCA).
+
+## Standards
+
+In Europe, air filters are classified according to EN 1822-1:2009.
+The permeability of the filter is measured in exactly the difficult particle sizes 0.1-0.3µm (MPPS = most penetrating particle size).
+
+* An EPA12 filter is the best of the three EPA classes and filters at least 99.5% of particles from the air.
+* A HEPA13 filter filters 99.95% of the particles, i.e. it is 10 times better. 
+* A HEPA14 filters 10 times better. 
+
+Important: The classification according to EN 1822-1 should not be confused with the MERV classification.
+Numbers of a similar size are used (e.g. MERV 13 filter).
+However, these numbers indicate up to which small particle size is filtered.
+(The higher the number, the smaller the particles are filtered and the better the filter).
+(H)EPA filters, on the other hand, always filter down to 0.3µm anyway, it's just a question of how well.
+
+According to [this table](https://www.emw.de/de/filter-campus/vergleich-von-filterklassen.html), the best MERV16 filters are comparable to EPA11.
+
+## Particle sizes
+
+A SARS-Cov-2 virus is about 0.1µm in size, i.e. in the range of difficult particle sizes.
+However, the viruses rarely travel alone in the aerosol, but usually in larger droplets.
+["we showed that SARS-CoV-2 RNA is present with airborne particles ≤2.5 μm, 2.5-10 μm, and ≥10 μm."](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8003456/)
+So you don't have to worry too much about the filter rate for particles smaller than 0.3µm.
+And the large particles are filtered well anyway.
+
+## Purpose and air flow rate
+
+In addition, when using a filter in a circulating room air filter, you can ask yourself whether you really need the 99.95% if the air then mixes with the rest of the dirty room air anyway.
+And even FFP2 masks, where we only breathe the filtered air without mixing, only filter 95%, i.e. 10 times worse than EPA12.
+
+Furthermore, filters that separate less usually allow more air throughput and thus filter the room air faster and better.
+(Fictitious example: once the room air with a HEPA13 with 2000-fold reduction OR twice the room air with EPA12 with 200 * 200 = 20,000-fold reduction thanks to higher throughput)
+
+The more 9s there are in the number, the better the expensive filters can be advertised.
+HEPA filters must be used for the exhaust air of biotechnical laboratories.
+And who doesn't want biotechnical laboratory purity at home?
+But we don't really need it.
+
+The well-known Corsi-Rosenthal box uses MERV13 filters.
+These are therefore worse than the MERV16/EPA11 filters and even worse than the EPA12 in the Uppatvind.
+
+To put it somewhat exaggeratedly: It's better for everyone to sit with their own Uppatvind on their lap at Christmas dinner than to buy a single HEPA air filter for the same money, which then sits in the corner and filters the air in the corner very well.
+
+## Summary
+
+The EPA12 in the Uppatvind is not much worse than a HEPA filter and still better than an FFP2 mask.
+
+The filtered air mixes with the room air anyway and with more throughput you may also have cleaner room air.
