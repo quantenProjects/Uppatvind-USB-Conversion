@@ -123,15 +123,15 @@ Außerdem kann das verwendete Trigger-Board auch Qualcomm Quick Charge triggern 
 
 Andere Spannungen könnten jedoch auch eine gute Wahl darstellen.
 
-# Aber das ist ja nur ein EPA12 Filter, hilft der überhaupt gegen SARS-Cov-2?
+# Aber das ist ja nur ein EPA12 Filter, hilft der überhaupt gegen SARS-CoV-2?
 
 *tldr: Ja, hilft immernoch sehr gut.*
 
 Ja, der IKEA Uppatvind hat einen EPA12 Filter, das ist kein HEPA-Filter (High-Efficiency Particulate Air), ihm fehlt also das *H* was für *High* steht.
-Funktioniert er dadurch nicht gegen SARS-Cov-2?
+Funktioniert er dadurch nicht gegen SARS-CoV-2?
 
 Es ist kompliziert. 
-Aber meine Meinung ist: Ja, er hilft gegen SARS-Cov-2.
+Aber meine Meinung ist: Ja, er hilft gegen SARS-CoV-2.
 Je nach Umständen (siehe unten) nicht ganz so super gut, es ist aber ein sehr guter Kompromiss zwischen Preis, Luft-Durchsatz und Schutz.
 
 ## Grundlagen
@@ -164,7 +164,7 @@ Laut [dieser Tabelle](https://www.emw.de/de/filter-campus/vergleich-von-filterkl
 
 ## Partikelgrößen
 
-Ein SARS-Cov-2 Virus ist ungefähr 0.1µm groß, also in dem Bereich der schwierigen Partikelgrößen.
+Ein SARS-CoV-2 Virus ist ungefähr 0.1µm groß, also in dem Bereich der schwierigen Partikelgrößen.
 Jedoch reisen die Viren selten alleine im Aerosol, sondern meist in größeren Tröpfchen.
 [»we showed that SARS-CoV-2 RNA is present with airborne particles ≤2.5 μm, 2.5–10 μm, and ≥10 μm.«](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8003456/)
 Also muss man sich um die Filtersrate für Partikel kleiner 0.3µm auch nicht all zu viele Gedanken machen.
@@ -196,7 +196,7 @@ Die gefilterte Luft mischt sich eh mit der Raumluft und mit mehr Durchsatz hat m
 
 # Bild
 
-![A image from the inside of the Uppatvind. You see the DC BoostUp-Coverter and the Trigger-Board](./img_1.jpg)
+![A image from the inside of the Uppatvind. You see the DC BoostUp-CoVerter and the Trigger-Board](./img_1.jpg)
 
 
 # Conversion from IKEA Uppatvind to USB-C
@@ -324,15 +324,15 @@ In addition, the trigger board used can also trigger Qualcomm Quick Charge and a
 
 However, other voltages could also be a good choice.
 
-# But this is only an EPA12 filter, does it even help against SARS-Cov-2?
+# But this is only an EPA12 filter, does it even help against SARS-CoV-2?
 
 *tldr: Yes, it still helps very well.*
 
 Yes, the IKEA Uppatvind has an EPA12 filter, which is not a HEPA filter (High-Efficiency Particulate Air), so it lacks the *H* which stands for *High*.
-Does this mean it doesn't work against SARS-Cov-2?
+Does this mean it doesn't work against SARS-CoV-2?
 
 It's complicated. 
-But my opinion is: Yes, it helps against SARS-Cov-2.
+But my opinion is: Yes, it helps against SARS-CoV-2.
 Depending on the circumstances (see below) not quite as good, but it is a very good compromise between price, air throughput and protection.
 
 ## Basics
@@ -365,7 +365,7 @@ According to [this table](https://www.emw.de/de/filter-campus/vergleich-von-filt
 
 ## Particle sizes
 
-A SARS-Cov-2 virus is about 0.1µm in size, i.e. in the range of difficult particle sizes.
+A SARS-CoV-2 virus is about 0.1µm in size, i.e. in the range of difficult particle sizes.
 However, the viruses rarely travel alone in the aerosol, but usually in larger droplets.
 ["we showed that SARS-CoV-2 RNA is present with airborne particles ≤2.5 μm, 2.5-10 μm, and ≥10 μm."](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8003456/)
 So you don't have to worry too much about the filter rate for particles smaller than 0.3µm.
