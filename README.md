@@ -8,6 +8,10 @@ Günstig und funktional, aber leider mit einem Netzteil für 230V. Kann aber fü
 
 Wenn du ein Lötkolben so halten kannst, dass es nicht nach Hähnchen riecht und ein Multimeter benutzen kannst, solltest du den Umbau auch bewerkstelligen können.
 
+Nach dem hier beschriebenen Umbau kann der Luftfilter per USB-C an 5V/2A oder besser an USB-C PD 9V Netzteilen und Powerbanks betrieben werden.
+Bei 5V sollten die Lüfterstufen langsam nacheinander eingeschaltet werden und vor dem Hochschalten gewartet werden, bis der Lüfter die neue Drehzahl erreicht hat.
+Wenn direkt Stufe 3 ausgewählt wird, ist der Anlaufstrom relativ groß und könnte ggf. das Netzteil überlasten.
+
 Umbau und Betrieb auf eigene Gefahr. Nach dem Umbau ist zwar alles Kleinspannung aber USB-C PD Netzteile können doch erhebliche Leistungen abgeben, sodass man bei Fehlern auch Magic Smoke, Schmoren oder Brand erzeugen kann.
 
 # Anleitung
@@ -208,6 +212,10 @@ The new and small air filter from IKEA for 35€ with 95m³/h CADR.
 Inexpensive and functional, but unfortunately with a power supply for 230V. But can be converted to USB-C for ~ 10 € and thus used with a power bank.
 
 If you can hold a soldering iron so that it doesn't smell of chicken and can use a multimeter, you should be able to manage the conversion.
+
+After the conversion described here, the air filter can be operated via USB-C with 5V/2A or better with USB-C PD 9V power supply units and power banks.
+At 5V, the fan stages should be switched on slowly one after the other and wait until the fan has reached the new speed before switching up.
+If level 3 is selected directly, the starting current is relatively high and could possibly overload the power supply unit.
 
 Conversion and operation at your own risk. After the conversion, although everything is low voltage, USB-C PD power supplies can still deliver considerable power, so that you can also generate magic smoke, smouldering or fire in the event of errors.
 
