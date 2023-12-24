@@ -1,8 +1,3 @@
----
-lang: en-US
----
-
-
 *English version below*
 
 # Umbau vom IKEA Uppatvind auf USB-C
